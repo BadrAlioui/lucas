@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    width: calc(100% - 20px);
+    flex-direction: column;
+  }
+  
+  .group label {
+    display: block;
+    margin: 5px 0 0 5px;
+  }
+  
+  input[type="email"] {
+    margin-left: 5px;
+  }
+  
+  .message{
+      height: calc(100% - 20px);
+  }
+  .message textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: none;
+    flex-grow: 1;
+    height: calc(100% - 20px);
+    border: 1px solid black;
+  }
+  
